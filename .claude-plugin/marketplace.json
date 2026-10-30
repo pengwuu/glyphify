@@ -1,0 +1,5 @@
+{
+  "name": "glyphify",
+  "owner": { "name": "pengwuu" },
+  "plugins": [{ "name": "glyphify", "source": "./" }]
+}

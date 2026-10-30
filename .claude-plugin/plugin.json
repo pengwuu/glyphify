@@ -1,0 +1,66 @@
+{
+  "name": "glyphify",
+  "version": "1.0.0",
+  "description": "Custom glyph and color for the reply bullet and the user-message chevron.",
+  "author": {
+    "name": "pengwuu"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/pengwuu/glyphify",
+  "userConfig": {
+    "replyGlyph": {
+      "type": "string",
+      "title": "Reply glyph",
+      "description": "Marker opening each Claude reply. Type any character your terminal can draw, e.g. ● ◆ ★ ✦ » ❯ λ → or an emoji; up to 8 characters.",
+      "default": "●"
+    },
+    "replyColor": {
+      "type": "string",
+      "title": "Reply color",
+      "description": "Named ANSI colors follow the terminal palette, so they look right in macOS Terminal.app. Has no effect on an emoji glyph, which draws in its own colors.",
+      "default": "green",
+      "options": [
+        "green",
+        "cyan",
+        "blue",
+        "magenta",
+        "red",
+        "yellow",
+        "white",
+        "greenBright",
+        "cyanBright",
+        "blueBright",
+        "magentaBright",
+        "redBright",
+        "yellowBright"
+      ]
+    },
+    "userGlyph": {
+      "type": "string",
+      "title": "Prompt glyph",
+      "description": "Marker before a prompt you typed. Type any character your terminal can draw, e.g. ❯ › » ▶ $ λ → or an emoji; up to 8 characters.",
+      "default": "❯"
+    },
+    "userColor": {
+      "type": "string",
+      "title": "Prompt color",
+      "description": "Named ANSI colors follow the terminal palette, so they look right in macOS Terminal.app. Has no effect on an emoji glyph, which draws in its own colors.",
+      "default": "yellow",
+      "options": [
+        "yellow",
+        "green",
+        "cyan",
+        "blue",
+        "magenta",
+        "red",
+        "white",
+        "yellowBright",
+        "greenBright",
+        "cyanBright",
+        "blueBright",
+        "magentaBright",
+        "redBright"
+      ]
+    }
+  }
+}
